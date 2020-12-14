@@ -1,0 +1,346 @@
+body{
+    margin:0;
+    max-width:950px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:#F6F6F6;
+}
+header > span{
+    display: block;
+    background-color: lawngreen;
+}
+header > img{
+    margin-top: 50px;
+}
+.header-right{
+    float: right;
+}
+.header-right p:first-child{
+    font-size:10px;
+    margin:15px 0;
+}
+.header-right p:nth-child(2){
+    font-size:24px;
+    margin:8px 0;
+    font-weight: 400;
+    background: url(img/bgTel.png) left center no-repeat;
+}
+.header-right p:last-child{
+    font-size:10px;
+    padding:5px 12px;
+    border: .5px solid grey ;
+    text-align: center;
+}
+.header-right span{
+    color:red;
+}
+.header-right{
+    text-align: right;
+}
+header{
+    margin-bottom:30px;
+}
+/* ヘッダーここまで */
+
+/* ユニバーサルメニュー */
+.universal-menu ul{
+    display: flex;
+    border:thin solid #6CC6C4;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+    margin-bottom: 20px;
+}
+.universal-menu li{
+    width: 20%;
+    height:70px;
+    text-align: center;
+    border:thin solid  rgb(113, 201, 199);
+    border:thin solid  #;
+    border-left-color: rgb(153, 225, 223);
+    border-right-color: rgb(113, 201, 199);
+}
+.universal-menu span{
+    display: block;
+}
+.universal-menu span:first-child{
+    padding-top:10px;
+}
+.universal-menu a{
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+    display: block;
+    width:100%;
+    height:70px;
+}
+.universal-menu li:hover{
+    opacity: 0.5;
+    background-image: linear-gradient( rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+}
+/* ユニバーサルメニューここまで */
+/* サイドバー1 */
+
+main{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+aside{
+    min-width: 250px;
+    display:flex;
+    flex-direction: column;
+  }
+  ul{
+    list-style:none;
+    padding:0;
+    margin: 0;
+  }
+
+
+
+nav{
+    border: 1px solid rgb(113, 201, 199);
+    width: 260px;
+    border-radius: 10px 10px 0 0;
+    font-weight: 400;
+    background-color: white;
+    margin-bottom: 20px;
+}
+nav p{
+    background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+    color:white;
+    padding:10px 20px;
+    margin:0;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+nav ul{
+    margin: 0 0 20px 0;
+    padding: 0;
+    
+}
+nav li{
+    background:url("img/bgListIcon01.png") no-repeat left center 5px;
+    margin: 0px 12px;
+    padding: 0 0 0 25px;
+    border-bottom: #6CC6C4 solid 1px;
+}
+nav a{
+    text-decoration: none;
+    color: #595959;
+    font-size: 14px;
+    padding: 8px 0;
+    display: block;
+    font-weight: bold;
+}
+nav a:hover{
+  color:rgb(113, 201, 199)
+}
+ 
+/* サイドバーここまで */
+
+/* 新着情報 */
+.new{
+    width:600px;
+    background-color: white;
+    margin-top:3px;
+    padding:20px;
+}
+.new h2{
+    margin:0px 20px;
+    padding:20px 40px;
+    font-size:20px;
+    border-bottom: 3px solid #6CC6C4;
+}
+
+dt{
+    float:left;
+    width: 11em;
+    padding: 10px 0;
+    font-weight: bold;
+    line-height: 150%;
+    margin: 0;
+    font-size:13px;
+}
+dd{
+    font-size:13px;
+    padding:10px 10px 10px 8rem;
+    border-bottom: #6CC6C4 1px solid;
+    margin: 0;
+}
+/* mainここまで */
+/* fotter menyu */
+
+.footer-menu ul{
+    display: flex;
+    margin: 15px 15px 0 15px;
+    border-radius: 5px;
+background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+
+
+.footer-menu li{
+width: 15%;
+height:30px;
+text-align: center;
+font-size:14px;
+line-height: 30px;
+background-image:url(img/bgFooterIcon.png) no-repeat left center;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+}
+.footer-menu a:hover{
+    border-bottom:1px solid white;
+}
+footer p{
+    text-align: right;
+    font-size: 12px;
+    /* font-weight: 600; */
+    padding: 20px 0;
+    border-bottom: 1.5px solid #6CC6C4;
+    margin: 0;
+}
+small{
+text-align: center;
+display: block;
+margin: 5px;
+}
+/* フッターここまで */
+
+/* clincここから */
+.panlist{
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
+}
+.panlist a{
+    color: teal;
+}
+
+.main{
+    width:640px
+}
+.main h2{
+    height: 50px;
+    background-image:linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+    color:white;
+    font-size:20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.inner{
+    background-color: white;
+    padding:20px;
+    border-radius: 0 0 10px 10px;
+}
+.sabmidashi{
+    margin: 0;
+    padding: 30px 30px 10px 30px;
+    font-size: 16px;
+    height: 50px;
+    padding: 0;
+    margin: 0 0 15px;
+    border-bottom: solid 3px #6CC6C4;
+}
+.sabmidashi > span {
+    line-height: 50px;
+    padding: 0 0 0 0px;
+}
+.textbox h3{
+    color:#6CC6C4;
+    margin:10px 10px 10px 0;
+    font-size:14px;
+    padding-top: 5px;
+}
+.textbox p{
+    font-size:14px;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    width:100%;
+    font-size:14px;
+    color:rgba(32, 19, 19, 0.438)
+}
+
+thead{
+    background-color:rgba(185, 183, 183, 0.89);
+}
+th{
+    border-bottom: solid #999 1px;
+    border-right: solid #999 1px;
+    padding: 10px;
+}
+td{
+    font-size:10px;
+    border-bottom: solid #999 1px;
+    border-right: solid #999 1px;
+    padding: 10px;
+}
+.gogo{
+    font-size:14px;
+    font-weight: bold;
+}
+.shinryou p{
+  font-size:14px;
+}
+
+/* clinicはここまで */
+
+/* サービスはここから */
+.sarvice-text p{
+ font-size:13px;
+}
+
+/* staffここから */
+.incho{
+    display: flex;
+    height: 200px;
+}
+.keireki{
+    padding:20px;
+}
+.keireki h3{
+  color:#6CC6C4;
+  font-size:16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.keireki p{
+    margin:0;
+    font-size:13px;
+    padding-bottom:3px;
+}
+.name{
+    font-size:14px;
+    background-color: #6CC6C4;
+    width: 200px;
+    color:white;
+    padding:2px;
+    text-align: center;
+    margin-bottom:40px;
+}
+/* staffここまで */
+
+/* アクセスここから */
+.bottom-message{
+    display: flex;
+}
+.bottom-message-right{
+    padding-left:20px;
+}
+.bottom-message p:first-child{
+    color:#6CC6C4;
+    font-size:16px;
+    font-weight: 600;
+}
+.bottom-message p:nth-child(n+2){
+    font-size:14px;
+    margin-top: 10px;
+}
